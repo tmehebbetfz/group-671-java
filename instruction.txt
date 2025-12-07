@@ -1,0 +1,8 @@
+// New java project 
+
+1) CTRL + P
+2) Написать ">"
+3) Написать после ">" текст "Java create"
+4) Выбрать - Java: Java Create project
+5) Выбрать - No build tools
+6) Указать название проекта после нажать Enter

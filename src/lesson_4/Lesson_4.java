@@ -6,75 +6,69 @@ import java.util.Arrays;
 public class Lesson_4 {
 	
 	public static void main(String[] args) {
+		// for 
 		
-		//               0  1  2  3
-//		int[] numbers = {2, 4, 6, 7};
-//		
-//		numbers[3] = 10;
-//		
-//		System.out.print(Arrays.toString(numbers));
+		// Счетчик
+		// Условие
+		// Инкремент
 		
-		
-		ArrayList<Integer> numbers = new ArrayList<Integer>(); // 
-		
-		numbers.add(5);
-		
-		numbers.remove(0);
-		
-		// int => Integer
-		// boolean => Boolean
-		// byte => Byte
-		
-		
-		// for
-		
-//		for (int i = 0; i <= 50; i++) {
-//			System.out.println("Hello");
+//		for (int i = 1; i <= 100; i++) {
+//			System.out.println(i + ": Hello world!");
 //		}
-
-		// for each
-		
-//		String[] fruits = {"apple", "banana", "mango"};
 //		
-//		for (String fruit : fruits) {
-//			
-//			if (!fruit.equals("banana")) {
-//				System.out.println(fruit);
-//			}
-//			
-//		}
-		
+//		
 //		for (;;) {
-//			
+//			System.out.println("Forever!");
 //		}
-		
 		
 		// while
 		
-//		for (int i = 0; i <= 50; i++) {
-//			System.out.println("Hello");
-//		}
-		
-		
-//		int i = 0;
+//		int i = 1000;
 //		
-//		while (i >= 50) {
-//			System.out.println("Hello");
+//		while(i <= 100) {
+//			System.out.println(i + ": Hello world!");
 //			i++;
 //		}
 		
-		// do while
+		// do + while
 		
-//		int i = 49;
+//		int i = 1;
 //		
 //		do {
-//			System.out.println("Hello");
+//			System.out.println(i + ": Hello world!");
 //			i++;
-//		} while(i >= 50);
+//		} while(i <= 100);
+		
+		// array + for
+		
+//		String[] fruits = {"apple", "mango", "banana", "kiwi", "orange"};
+//		
+//		for (int i = 0; i < fruits.length; i++) {
+//			System.out.println("Fruit " + fruits[i]);
+//		}
+		
+		// last index
+		//                    0        1         2        3        4
+//		String[] fruits = {"apple", "mango", "banana", "kiwi", "orange"}; // fruits.length = 5 - 1 = 4
+//		
+//		System.out.println("Fruit " + fruits[fruits.length - 1]); // 5 - 1 = 4
+		
+		// break, continue
+		
+		int[] fruits = {1, 0, 1, 0, 1, 1, 1, 1, 0};
+		
+		for (int i = 0; i < fruits.length; i++) {
+			if (fruits[i] == 0) {
+				continue;
+			}
+			
+			System.out.println("Fruit " + (fruits[i] == 0 ? "not ready" : "ready"));
+		}
+		
+		
 	}
 	
 }
 
-// fruit == "apple"
-// fruit == "banana"
+
 
